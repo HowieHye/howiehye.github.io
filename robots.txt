@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://howiehye.top/sitemap.xml
+Sitemap: https://howiehye.top/baidusitemap.xml
