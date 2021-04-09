@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Howie&#39;s HomePage</title>
-  <icon>https://www.gravatar.com/avatar/70bdf931547435ae653853d1adfc0e47</icon>
+  <icon>https://www.gravatar.com/avatar/ae877ab4569cb4ebb4c0d31c999ca9bc</icon>
   <subtitle>Howie Hye</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>Howie Hye</name>
-    <email>howiehye@qq.com</email>
+    <email>howiehye@163.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
