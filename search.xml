@@ -664,22 +664,11 @@
     
     
     <entry>
-      <title>照片</title>
-      <link href="Gallery/index.html"/>
-      <url>Gallery/index.html</url>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='https://cdn.jsdelivr.net/gh/HowieHye/CDN//img/20200703145715.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电脑壁纸</div>  <p>收藏的一些电脑壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="manifest.json"/>
-      <url>manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"HowieHye's HomePage","short_name":"HowieHye","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/icons/128.png","sizes":"128x128","type":"image/png"},{"src":"images/icons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/icons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/icons/256.png","sizes":"256x256","type":"image/png"},{"src":"images/icons/512.png","sizes":"512x512","type":"image/png"},{"src":"images/icons/maskable_icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"splash_pages":null}]]></content>
+        <content type="html"><![CDATA[<h2> Hi there 👋 I am <a href="https://github.com/HowieHye" target="_blank">Howie</a></h2><ul><li>👨👨‍🎓‍ Want to be an Electronics engineer</li><li>👨👨‍🎓‍ An undergraduate student</li><li>👨💻 Hackintosher</li></ul><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">]]></content>
       
     </entry>
     
@@ -697,22 +686,22 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="categories/index.html"/>
-      <url>categories/index.html</url>
+      <title>友情链接</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<hr><h2 id="我的-blog-资料"><a class="markdownIt-Anchor" href="#我的-blog-资料"></a> 我的 Blog 资料</h2><div class="note info flat"><p>Blog 名字：HowieHye</p><p>Blog 地址：<a href="https://howiehye.top">https://howiehye.top</a></p><p>Blog 头像：<a href="https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png">https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png</a></p><p>Blog 简介：功在勤政，威在律己</p></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
+      <title>分类</title>
+      <link href="categories/index.html"/>
+      <url>categories/index.html</url>
       
-        <content type="html"><![CDATA[<h2> Hi there 👋 I am <a href="https://github.com/HowieHye" target="_blank">Howie</a></h2><ul><li>👨👨‍🎓‍ Want to be an Electronics engineer</li><li>👨👨‍🎓‍ An undergraduate student</li><li>👨💻 Hackintosher</li></ul><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -730,11 +719,22 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="link/index.html"/>
-      <url>link/index.html</url>
+      <title>黑苹果</title>
+      <link href="hackintosh/index.html"/>
+      <url>hackintosh/index.html</url>
       
-        <content type="html"><![CDATA[<hr><h2 id="我的-blog-资料"><a class="markdownIt-Anchor" href="#我的-blog-资料"></a> 我的 Blog 资料</h2><div class="note info flat"><p>Blog 名字：HowieHye</p><p>Blog 地址：<a href="https://howiehye.top">https://howiehye.top</a></p><p>Blog 头像：<a href="https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png">https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png</a></p><p>Blog 简介：功在勤政，威在律己</p></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>这里放着我玩黑苹果常用的链接、工具</p><h2 id="我的相关文章"><a class="markdownIt-Anchor" href="#我的相关文章"></a> 我的相关文章</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/62d3/"   title="Dell燃7000黑苹果EFI"><i class="far fa-file-alt"></i><span>Dell燃7000黑苹果EFI</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/9ff9620/"   title="黑苹果安装指北手册(持续更新)"><i class="far fa-file-alt"></i><span>黑苹果安装指北手册(持续更新)</span></a><h2 id="工具"><a class="markdownIt-Anchor" href="#工具"></a> 工具</h2><a class="btn-beautify button--animated outline red larger" href="https://github.com/headkaze/Hackintool"   title="Hackintool"><i class="fas fa-tools"></i><span>Hackintool</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/bugprogrammer/HackintoshBuild"   title="HackintoshBuild"><i class="fas fa-tools"></i><span>HackintoshBuild</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/QtOpenCoreConfig"   title="开源跨平台的OpenCore配置文件编辑器"><i class="fas fa-tools"></i><span>开源跨平台的OpenCore配置文件编辑器</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/QtiASL"   title="开源跨平台的dsdt&ssdt分析编辑器"><i class="fas fa-tools"></i><span>开源跨平台的dsdt&ssdt分析编辑器</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/PlistEDPlus"   title="PlistEDPlus"><i class="fas fa-tools"></i><span>PlistEDPlus</span></a><h2 id="链接"><a class="markdownIt-Anchor" href="#链接"></a> 链接</h2><a class="btn-beautify button--animated outline orange larger" href="https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/"   title="OpenCore Vanilla Guide"><i class="fa fa-link"></i><span>OpenCore Vanilla Guide</span></a><a class="btn-beautify button--animated outline orange larger" href="https://oc.skk.moe/"   title="OpenCore 简体中文参考手册"><i class="fa fa-link"></i><span>OpenCore 简体中文参考手册</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.daliansky.net/OpenCore-BootLoader.html"   title="精解OpenCore"><i class="fa fa-link"></i><span>精解OpenCore</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.skk.moe/post/from-clover-to-opencore/"   title="从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南"><i class="fa fa-link"></i><span>从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.xjn819.com/post/opencore-guide.html"   title="使用 OpenCore 引导黑苹果"><i class="fa fa-link"></i><span>使用 OpenCore 引导黑苹果</span></a>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="manifest.json"/>
+      <url>manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"HowieHye's HomePage","short_name":"HowieHye","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/icons/128.png","sizes":"128x128","type":"image/png"},{"src":"images/icons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/icons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/icons/256.png","sizes":"256x256","type":"image/png"},{"src":"images/icons/512.png","sizes":"512x512","type":"image/png"},{"src":"images/icons/maskable_icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -763,11 +763,11 @@
     
     
     <entry>
-      <title>全国计算机二级C语言过关攻略</title>
-      <link href="ncre-c/index.html"/>
-      <url>ncre-c/index.html</url>
+      <title>照片</title>
+      <link href="Gallery/index.html"/>
+      <url>Gallery/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>整理 By 吾妩</p></div><h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>作为一个工科在读大三狗，本电气生含泪从大一考计算机二级C语言到大三，历经千难万苦最终取得全国计算机二级C良好与江苏省计算机二级C优秀两个证书。在与C语言顽强斗争的过程中，从网上找到的资源结合自己的学习方法最终做了一个二级过关的知识点合集。希望我的整理能给大家带来一些帮助，如有错误，欢迎指正。</p><h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/7dc5e7b1/"   title="选择题公共知识点汇总（一）"><i class="far fa-file-alt"></i><span>选择题公共知识点汇总（一）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/4dd30b69/"   title="选择题公共知识点汇总（二）"><i class="far fa-file-alt"></i><span>选择题公共知识点汇总（二）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/f43a2906/"   title="选择题 C 语言知识点汇总（一）"><i class="far fa-file-alt"></i><span>选择题 C 语言知识点汇总（一）</span></a>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='https://cdn.jsdelivr.net/gh/HowieHye/CDN//img/20200703145715.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电脑壁纸</div>  <p>收藏的一些电脑壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -796,11 +796,11 @@
     
     
     <entry>
-      <title>黑苹果</title>
-      <link href="hackintosh/index.html"/>
-      <url>hackintosh/index.html</url>
+      <title>全国计算机二级C语言过关攻略</title>
+      <link href="ncre-c/index.html"/>
+      <url>ncre-c/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>这里放着我玩黑苹果常用的链接、工具</p><h2 id="我的相关文章"><a class="markdownIt-Anchor" href="#我的相关文章"></a> 我的相关文章</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/62d3/"   title="Dell燃7000黑苹果EFI"><i class="far fa-file-alt"></i><span>Dell燃7000黑苹果EFI</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/9ff9620/"   title="黑苹果安装指北手册(持续更新)"><i class="far fa-file-alt"></i><span>黑苹果安装指北手册(持续更新)</span></a><h2 id="工具"><a class="markdownIt-Anchor" href="#工具"></a> 工具</h2><a class="btn-beautify button--animated outline red larger" href="https://github.com/headkaze/Hackintool"   title="Hackintool"><i class="fas fa-tools"></i><span>Hackintool</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/bugprogrammer/HackintoshBuild"   title="HackintoshBuild"><i class="fas fa-tools"></i><span>HackintoshBuild</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/QtOpenCoreConfig"   title="开源跨平台的OpenCore配置文件编辑器"><i class="fas fa-tools"></i><span>开源跨平台的OpenCore配置文件编辑器</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/QtiASL"   title="开源跨平台的dsdt&ssdt分析编辑器"><i class="fas fa-tools"></i><span>开源跨平台的dsdt&ssdt分析编辑器</span></a><a class="btn-beautify button--animated outline red larger" href="https://github.com/ic005k/PlistEDPlus"   title="PlistEDPlus"><i class="fas fa-tools"></i><span>PlistEDPlus</span></a><h2 id="链接"><a class="markdownIt-Anchor" href="#链接"></a> 链接</h2><a class="btn-beautify button--animated outline orange larger" href="https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/"   title="OpenCore Vanilla Guide"><i class="fa fa-link"></i><span>OpenCore Vanilla Guide</span></a><a class="btn-beautify button--animated outline orange larger" href="https://oc.skk.moe/"   title="OpenCore 简体中文参考手册"><i class="fa fa-link"></i><span>OpenCore 简体中文参考手册</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.daliansky.net/OpenCore-BootLoader.html"   title="精解OpenCore"><i class="fa fa-link"></i><span>精解OpenCore</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.skk.moe/post/from-clover-to-opencore/"   title="从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南"><i class="fa fa-link"></i><span>从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</span></a><a class="btn-beautify button--animated outline orange larger" href="https://blog.xjn819.com/post/opencore-guide.html"   title="使用 OpenCore 引导黑苹果"><i class="fa fa-link"></i><span>使用 OpenCore 引导黑苹果</span></a>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>整理 By 吾妩</p></div><h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>作为一个工科在读大三狗，本电气生含泪从大一考计算机二级C语言到大三，历经千难万苦最终取得全国计算机二级C良好与江苏省计算机二级C优秀两个证书。在与C语言顽强斗争的过程中，从网上找到的资源结合自己的学习方法最终做了一个二级过关的知识点合集。希望我的整理能给大家带来一些帮助，如有错误，欢迎指正。</p><h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/7dc5e7b1/"   title="选择题公共知识点汇总（一）"><i class="far fa-file-alt"></i><span>选择题公共知识点汇总（一）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/4dd30b69/"   title="选择题公共知识点汇总（二）"><i class="far fa-file-alt"></i><span>选择题公共知识点汇总（二）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/f43a2906/"   title="选择题 C 语言知识点汇总（一）"><i class="far fa-file-alt"></i><span>选择题 C 语言知识点汇总（一）</span></a>]]></content>
       
     </entry>
     
