@@ -664,33 +664,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="manifest.json"/>
-      <url>manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"HowieHye's HomePage","short_name":"HowieHye","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/icons/128.png","sizes":"128x128","type":"image/png"},{"src":"images/icons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/icons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/icons/256.png","sizes":"256x256","type":"image/png"},{"src":"images/icons/512.png","sizes":"512x512","type":"image/png"},{"src":"images/icons/maskable_icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>照片</title>
       <link href="Gallery/index.html"/>
       <url>Gallery/index.html</url>
       
         <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src= "/images/loading.gif" data-lazy-src='https://cdn.jsdelivr.net/gh/HowieHye/CDN//img/20200703145715.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电脑壁纸</div>  <p>收藏的一些电脑壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>说说</title>
-      <link href="artitalk/index.html"/>
-      <url>artitalk/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -708,11 +686,33 @@
     
     
     <entry>
+      <title>说说</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="categories/index.html"/>
       <url>categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="manifest.json"/>
+      <url>manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"HowieHye's HomePage","short_name":"HowieHye","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/icons/128.png","sizes":"128x128","type":"image/png"},{"src":"images/icons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/icons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/icons/256.png","sizes":"256x256","type":"image/png"},{"src":"images/icons/512.png","sizes":"512x512","type":"image/png"},{"src":"images/icons/maskable_icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -741,11 +741,33 @@
     
     
     <entry>
+      <title>友情链接</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="我的-blog-资料"><a class="markdownIt-Anchor" href="#我的-blog-资料"></a> 我的 Blog 资料</h2><div class="note info flat"><p>Blog 名字：HowieHye</p><p>Blog 地址：<a href="https://howiehye.top">https://howiehye.top</a></p><p>Blog 头像：<a href="https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png">https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png</a></p><p>Blog 简介：功在勤政，威在律己</p></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签</title>
       <link href="tags/index.html"/>
       <url>tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>全国计算机二级C语言过关攻略</title>
+      <link href="ncre-c/index.html"/>
+      <url>ncre-c/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>整理 By 吾妩</p></div><h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>作为一个工科在读大三狗，本电气生含泪从大一考计算机二级C语言到大三，历经千难万苦最终取得全国计算机二级C良好与江苏省计算机二级C优秀两个证书。在与C语言顽强斗争的过程中，从网上找到的资源结合自己的学习方法最终做了一个二级过关的知识点合集。希望我的整理能给大家带来一些帮助，如有错误，欢迎指正。</p><h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/7dc5e7b1/"   title="选择题公共知识点汇总（一）"><i class="far fa-file-alt fa-fw"></i><span>选择题公共知识点汇总（一）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/4dd30b69/"   title="选择题公共知识点汇总（二）"><i class="far fa-file-alt fa-fw"></i><span>选择题公共知识点汇总（二）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/f43a2906/"   title="选择题 C 语言知识点汇总（一）"><i class="far fa-file-alt fa-fw"></i><span>选择题 C 语言知识点汇总（一）</span></a>]]></content>
       
     </entry>
     
@@ -763,33 +785,11 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="link/index.html"/>
-      <url>link/index.html</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="我的-blog-资料"><a class="markdownIt-Anchor" href="#我的-blog-资料"></a> 我的 Blog 资料</h2><div class="note info flat"><p>Blog 名字：HowieHye</p><p>Blog 地址：<a href="https://howiehye.top">https://howiehye.top</a></p><p>Blog 头像：<a href="https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png">https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/blog/avatar.png</a></p><p>Blog 简介：功在勤政，威在律己</p></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电脑壁纸</title>
       <link href="Gallery/wallpaper/index.html"/>
       <url>Gallery/wallpaper/index.html</url>
       
         <content type="html"><![CDATA[<div class="justified-gallery"><p><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN/gallery/wallpaper/20200703132723.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132709.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132703.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132655.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132545.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132551.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132557.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132605.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132534.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132526.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132641.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132628.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132618.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132611.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132647.bmp" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132819.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132751.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132745.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132832.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132855.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132908.jpg" alt="" /><br /><img src= "/images/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/HowieHye/CDN//gallery/wallpaper/20200703132957.jpg" alt="" /></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>全国计算机二级C语言过关攻略</title>
-      <link href="ncre-c/index.html"/>
-      <url>ncre-c/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><p>整理 By 吾妩</p></div><h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><p>作为一个工科在读大三狗，本电气生含泪从大一考计算机二级C语言到大三，历经千难万苦最终取得全国计算机二级C良好与江苏省计算机二级C优秀两个证书。在与C语言顽强斗争的过程中，从网上找到的资源结合自己的学习方法最终做了一个二级过关的知识点合集。希望我的整理能给大家带来一些帮助，如有错误，欢迎指正。</p><h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/7dc5e7b1/"   title="选择题公共知识点汇总（一）"><i class="far fa-file-alt fa-fw"></i><span>选择题公共知识点汇总（一）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/4dd30b69/"   title="选择题公共知识点汇总（二）"><i class="far fa-file-alt fa-fw"></i><span>选择题公共知识点汇总（二）</span></a><a class="btn-beautify button--animated outline purple larger" href="https://howiehye.top/post/f43a2906/"   title="选择题 C 语言知识点汇总（一）"><i class="far fa-file-alt fa-fw"></i><span>选择题 C 语言知识点汇总（一）</span></a>]]></content>
       
     </entry>
     
