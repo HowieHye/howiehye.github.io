@@ -704,17 +704,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2> Hi there 👋 I am <a href="https://github.com/HowieHye" target="_blank">Howie</a></h2><ul><li>👨👨‍🎓‍ Want to be an Electronics engineer</li><li>👨👨‍🎓‍ An undergraduate student</li><li>👨💻 Hackintosher</li></ul><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>照片</title>
       <link href="Gallery/index.html"/>
       <url>Gallery/index.html</url>
@@ -726,9 +715,20 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="categories/index.html"/>
-      <url>categories/index.html</url>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2> Hi there 👋 I am <a href="https://github.com/HowieHye" target="_blank">Howie</a></h2><ul><li>👨👨‍🎓‍ Want to be an Electronics engineer</li><li>👨👨‍🎓‍ An undergraduate student</li><li>👨💻 Hackintosher</li></ul><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowieHye&show_icons=true&hide_border=true&icon_color=586069&title_color=a0a9af">]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>说说</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -742,6 +742,17 @@
       <url>bing/index.html</url>
       
         <content type="html"><![CDATA[<h2 id="bing-每日壁纸"><a class="markdownIt-Anchor" href="#bing-每日壁纸"></a> Bing 每日壁纸</h2><div class="note info flat"><p>Api:<a href="https://api.howiehye.top/bing/">https://api.howiehye.top/bing/</a></p></div><h3 id="今日壁纸"><a class="markdownIt-Anchor" href="#今日壁纸"></a> 今日壁纸：</h3><p><img src="https://api.howiehye.top/bing/" alt="" /></p><h3 id="代码"><a class="markdownIt-Anchor" href="#代码"></a> 代码：</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$filename = <span class="string">&quot;./cache.json&quot;</span>;</span><br><span class="line"><span class="keyword">if</span> (file_exists($filename) === <span class="literal">false</span>) &#123;</span><br><span class="line">    file_put_contents($filename, <span class="string">&quot;&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">$handle = fopen($filename, <span class="string">&quot;r&quot;</span>);</span><br><span class="line">$contents = fread($handle, filesize($filename));</span><br><span class="line">fclose($handle);</span><br><span class="line">$contents = json_decode($contents, <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (filesize($filename) === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="comment">// echo &quot;获取\r\n&quot;;</span></span><br><span class="line">    getBingImg();</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> ($contents[<span class="string">&#x27;time&#x27;</span>] === date(<span class="string">&quot;Ymd&quot;</span>)) &#123;</span><br><span class="line">        <span class="comment">// echo &quot;缓存\r\n&quot;;</span></span><br><span class="line">        Header(<span class="string">&quot;Location: &quot;</span>.$contents[<span class="string">&#x27;url&#x27;</span>]);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="comment">// echo &quot;过期\r\n&quot;;</span></span><br><span class="line">        getBingImg();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getBingImg</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    $str = file_get_contents(<span class="string">&#x27;http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1&#x27;</span>);</span><br><span class="line">    <span class="keyword">if</span> (preg_match(<span class="string">&quot;/&lt;url&gt;(.+?)&lt;\/url&gt;/ies&quot;</span>, $str, $matches)) &#123;</span><br><span class="line">        $imgurl = <span class="string">&#x27;https://cn.bing.com&#x27;</span> . $matches[<span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> ($imgurl) &#123;</span><br><span class="line">        <span class="keyword">global</span> $contents;</span><br><span class="line">        <span class="keyword">if</span>($contents[<span class="string">&#x27;url&#x27;</span>] !== $imgurl)&#123;</span><br><span class="line">            <span class="keyword">global</span> $filename;</span><br><span class="line">            $data = <span class="keyword">array</span>(</span><br><span class="line">                <span class="string">&quot;time&quot;</span> =&gt; date(<span class="string">&quot;Ymd&quot;</span>) ,</span><br><span class="line">                <span class="string">&quot;url&quot;</span> =&gt; $imgurl</span><br><span class="line">            );</span><br><span class="line">            $data = json_encode($data);</span><br><span class="line">            file_put_contents($filename, $data);</span><br><span class="line">        &#125;</span><br><span class="line">        Header(<span class="string">&quot;Location: &quot;</span>.$imgurl);</span><br><span class="line">        <span class="keyword">exit</span>();</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">exit</span>(<span class="string">&#x27;error&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="categories/index.html"/>
+      <url>categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -781,17 +792,6 @@
     
     
     <entry>
-      <title>说说</title>
-      <link href="artitalk/index.html"/>
-      <url>artitalk/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>全国计算机二级C语言过关攻略</title>
       <link href="ncre-c/index.html"/>
       <url>ncre-c/index.html</url>
@@ -825,22 +825,22 @@
     
     
     <entry>
-      <title>我们一起吃过的美食</title>
-      <link href="love/food/index.html"/>
-      <url>love/food/index.html</url>
+      <title>我们在一起快乐的玩耍</title>
+      <link href="love/play/index.html"/>
+      <url>love/play/index.html</url>
       
-        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://img.howiehye.top/love/eat/IMG_20190511_165033.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165521.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190513_172033.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190524_220620.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190526_173757.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190526_173858.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190607_212628.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190609_180623.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190609_180633.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190618_182835.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190620_174317.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_133000.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_134032.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_134236.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1554904766164_73d1f1c5078d506646e8685dd5e27b06.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_161636.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_172849.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_172855.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190423_192958.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190429_181351.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190429_181406.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165007.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165014.jpg" alt="" /></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://img.howiehye.top/love/eat/IMG_20190410_185146.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_190756-01.jpeg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190608_190807.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190712_132002.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190722_153646.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1e16946e13fdc96a.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1554904751451_25b542ff94031792cb2b9e2f2d9509cb.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_152952.jpg" alt="" /></p>          </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>我们在一起快乐的玩耍</title>
-      <link href="love/play/index.html"/>
-      <url>love/play/index.html</url>
+      <title>我们一起吃过的美食</title>
+      <link href="love/food/index.html"/>
+      <url>love/food/index.html</url>
       
-        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://img.howiehye.top/love/eat/IMG_20190410_185146.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_190756-01.jpeg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190608_190807.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190712_132002.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190722_153646.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1e16946e13fdc96a.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1554904751451_25b542ff94031792cb2b9e2f2d9509cb.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_152952.jpg" alt="" /></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="justified-gallery"><p><img src="https://img.howiehye.top/love/eat/IMG_20190511_165033.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165521.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190513_172033.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190524_220620.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190526_173757.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190526_173858.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190607_212628.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190609_180623.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190609_180633.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190618_182835.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190620_174317.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_133000.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_134032.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190629_134236.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/1554904766164_73d1f1c5078d506646e8685dd5e27b06.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_161636.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_172849.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190327_172855.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190423_192958.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190429_181351.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190429_181406.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165007.jpg" alt="" /><br /><img src="https://img.howiehye.top/love/eat/IMG_20190511_165014.jpg" alt="" /></p>          </div>]]></content>
       
     </entry>
     
