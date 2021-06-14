@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/love/</loc>
+    <loc>https://howiehye.top/link/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://howiehye.top/link/</loc>
+    <loc>https://howiehye.top/love/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/categories/</loc>
+    <loc>https://howiehye.top/hackintosh/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://howiehye.top/hackintosh/</loc>
+    <loc>https://howiehye.top/categories/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -114,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/about/</loc>
-    
-    <lastmod>2021-04-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://howiehye.top/artitalk/</loc>
     
     <lastmod>2021-04-09</lastmod>
@@ -129,6 +122,13 @@
   
   <url>
     <loc>https://howiehye.top/bing/</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://howiehye.top/about/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -212,13 +212,6 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/post/34236/</loc>
-    
-    <lastmod>2021-04-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://howiehye.top/post/5632/</loc>
     
     <lastmod>2021-04-09</lastmod>
@@ -226,7 +219,7 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/post/1490/</loc>
+    <loc>https://howiehye.top/post/34236/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -241,6 +234,13 @@
   
   <url>
     <loc>https://howiehye.top/post/7dc5e7b1/</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://howiehye.top/post/1490/</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -326,6 +326,13 @@
   </url>
   
   <url>
+    <loc>https://howiehye.top/tags/m3u8/</loc>
+    <lastmod>2021-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://howiehye.top/tags/urllib/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
@@ -334,13 +341,6 @@
   
   <url>
     <loc>https://howiehye.top/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2021-06-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://howiehye.top/tags/m3u8/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -431,14 +431,14 @@
   </url>
   
   <url>
-    <loc>https://howiehye.top/tags/Windows/</loc>
+    <loc>https://howiehye.top/tags/Requests/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://howiehye.top/tags/Requests/</loc>
+    <loc>https://howiehye.top/tags/Windows/</loc>
     <lastmod>2021-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
